@@ -18,7 +18,7 @@
                 <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Layout Vertical Navbar</li>
+                        <li class="breadcrumb-item active" aria-current="page">Simanja</li>
                     </ol>
                 </nav>
             </div>
@@ -27,7 +27,7 @@
     <section class="section">
         <div class="card">
             <div class="card-header">
-                <h4 class="card-title">Dashboard CMS</h4>
+                <h4 class="card-title">Dashboard</h4>
             </div>
             <div class="card-body">
 
@@ -45,7 +45,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="col-md-8 col-lg-12 col-xl-12 col-xxl-7">
-                                                    <h6 class="text-muted font-semibold">Total Customer</h6>
+                                                    <h6 class="text-muted font-semibold">Total Employee</h6>
                                                     <h6 class="font-extrabold mb-0">{{ $customer }}</h6>
                                                 </div>
                                             </div>

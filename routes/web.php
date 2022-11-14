@@ -17,7 +17,7 @@ use App\Http\Controllers\Admin\Auth\Google2FaController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('auth.login');
 });
 
 Route::prefix('simanja/')->group(function () {
