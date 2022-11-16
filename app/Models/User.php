@@ -63,14 +63,7 @@ use App\Notifications\ResetPassword as ResetPasswordNotification;
  * @property-read \App\Models\userSecret|null $secret
  */
 
-/*
-|--------------------------------------------------------------------------
-| Rumah Dev
-| Backend Developer : ibudirsan
-| Email             : ibnudirsan@gmail.com
-| Copyright © RumahDev 2022
-|--------------------------------------------------------------------------
-*/
+
 class User extends Authenticatable implements MustVerifyEmail
 {
     use HasApiTokens, HasFactory, Notifiable, SoftDeletes, HasRoles;

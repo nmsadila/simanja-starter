@@ -23,14 +23,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
  * @property-read int|null $roles_count
  */
 
-/*
-|--------------------------------------------------------------------------
-| Rumah Dev
-| Backend Developer : ibudirsan
-| Email             : ibnudirsan@gmail.com
-| Copyright © RumahDev 2022
-|--------------------------------------------------------------------------
-*/
+
 class HasRoles extends Model
 {
     use HasFactory;

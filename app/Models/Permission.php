@@ -56,14 +56,7 @@ use Spatie\Permission\Contracts\Permission as PermissionContract;
  * @mixin \Eloquent
  */
 
-/*
-|--------------------------------------------------------------------------
-| Rumah Dev
-| Backend Developer : ibudirsan
-| Email             : ibnudirsan@gmail.com
-| Copyright © RumahDev 2022
-|--------------------------------------------------------------------------
-*/
+
 class Permission extends Model implements PermissionContract
 {
     use HasFactory, HasRoles, RefreshesPermissionCache, SoftDeletes;

@@ -35,14 +35,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
  * @method static \Illuminate\Database\Query\Builder|moduleMenu withoutTrashed()
  */
 
-/*
-|--------------------------------------------------------------------------
-| Rumah Dev
-| Backend Developer : ibudirsan
-| Email             : ibnudirsan@gmail.com
-| Copyright © RumahDev 2022
-|--------------------------------------------------------------------------
-*/
+
 class moduleMenu extends Model
 {
     use HasFactory, SoftDeletes;

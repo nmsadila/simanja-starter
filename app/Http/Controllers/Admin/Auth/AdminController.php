@@ -13,14 +13,7 @@ use App\Http\Requests\Auth\admin\adminRequest;
 use App\Repositories\Auth\Admin\AdminResponse;
 use PhpParser\Builder\Function_;
 
-/*
-|--------------------------------------------------------------------------
-| Rumah Dev
-| Backend Developer : ibudirsan
-| Email             : ibnudirsan@gmail.com
-| Copyright © RumahDev 2022
-|--------------------------------------------------------------------------
-*/
+
 class AdminController extends Controller
 {
 

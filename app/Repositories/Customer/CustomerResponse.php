@@ -6,14 +6,7 @@ use Carbon\Carbon;
 use App\Models\Customer;
 use App\Repositories\Customer\CustomerDesign;
 
-/*
-|--------------------------------------------------------------------------
-| Rumah Dev
-| Backend Developer : ibudirsan
-| Email             : ibnudirsan@gmail.com
-| Copyright © RumahDev 2022
-|--------------------------------------------------------------------------
-*/
+
 class CustomerResponse  implements CustomerDesign {
     /**
     * Model class to be used in this repository for the common methods inside Eloquent

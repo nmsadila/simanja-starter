@@ -9,14 +9,7 @@ use Yajra\DataTables\Facades\DataTables;
 use App\Http\Requests\Auth\permissions\requestPemissions;
 use App\Repositories\Auth\Permissions\PermissionsResponse;
 
-/*
-|--------------------------------------------------------------------------
-| Rumah Dev
-| Backend Developer : ibudirsan
-| Email             : ibnudirsan@gmail.com
-| Copyright © RumahDev 2022
-|--------------------------------------------------------------------------
-*/
+
 class PermissionController extends Controller
 {
     protected $PermissionsResponse;

@@ -10,14 +10,6 @@ use LaravelEasyRepository\Implementations\Eloquent;
 
 class Google2FaResponse extends Eloquent implements Google2FaDesign{
 
-/*
-|--------------------------------------------------------------------------
-| Rumah Dev
-| Backend Developer : ibudirsan
-| Email             : ibnudirsan@gmail.com
-| Copyright © RumahDev 2022
-|--------------------------------------------------------------------------
-*/
 
     /**
     * Model class to be used in this repository for the common methods inside Eloquent
